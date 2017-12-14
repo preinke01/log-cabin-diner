@@ -1,0 +1,67 @@
+@@charset "UTF-8";
+@font-face {
+  font-family: 'Roboto', sans-serif;
+}
+body, header, nav, main, section, footer, ul, li, img p {
+  display: block;
+  box-sizing: border-box;
+}
+html {
+  background-color: tan;
+}
+body {
+  background-color: rgb(231, 158, 17);
+  width: 960px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+section img {
+  float: left;
+  /* height 10%;
+  width: 33%;
+padding-left: 2px; */
+
+}
+section.pics img{
+  float: left;
+  width: 33.3%;
+  outline: 1px solid red;
+}
+
+nav {
+  background-color: rgb(231, 141, 141);
+  height: 20px;
+  clear: both;
+}
+nav ul{
+  width: 60%;
+margin:auto;
+color: brown;
+}
+nav li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+nav a:hover {
+  background-color: yellow;
+}
+header {
+    display: block;
+    float: left;
+    width: 100%;
+  }
+
+  header > img {
+    /*clear: left;*/
+    /* display: block; */
+    /*float: left;*/
+    width: 100%;
+  }
+  footer  {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+  }
